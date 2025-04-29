@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>c0taverN 今晚月色真美</title>
-        <link href="../io/myweb/css/index.css" type="text/css" rel="stylesheet">
+        <link href="../io/css/index.css" type="text/css" rel="stylesheet">
     </head>
 
 
@@ -12,24 +12,24 @@
 <a href="#" class="logo">c0taverN</a>
 <ul>
     <li>
-    <a href="../io/myweb/html/index.html" class="active">首页</a>
+    <a href="../io/html/index.html" class="active">首页</a>
     </li>
-    <li><a href="../io/myweb/html/about.html">关于</a></li>
-    <li><a href="../io/myweb/html/Log in.html">登录</a></li>
-    <li><a href="../io/myweb/html/Contact.html">联系</a></li>
+    <li><a href="../io/html/about.html">关于</a></li>
+    <li><a href="../io/html/Log in.html">登录</a></li>
+    <li><a href="../io/html/Contact.html">联系</a></li>
 </ul>
 </header>
 
 <section>
-<img src="../io/myweb/images/moonimages/stars.png" class="stars">
-<img src="../io/myweb/images/moonimages/moon.png" class="moon">
-<img src="../io/myweb/images/moonimages/mountains_behind.png" class="behind">
+<img src="../io/images/moonimages/stars.png" class="stars">
+<img src="../io/images/moonimages/moon.png" class="moon">
+<img src="../io/images/moonimages/mountains_behind.png" class="behind">
 
 <h2 class="txt">探索美妙世界</h2>
 <a href="../io/myweb/html/Explore.html" class="btn">进入探索</a>
 
-<img src="../io/myweb/images/moonimages/mountains_front.png" class="front">
-<script src="../io/myweb/js/index.js" type="text/javascript" charset="utf-8"></script>
+<img src="../io/images/moonimages/mountains_front.png" class="front">
+<script src="../io/js/index.js" type="text/javascript" charset="utf-8"></script>
 </section>
 
 <div class="content">
@@ -45,6 +45,158 @@
     最好的科技，从不需要被仰望。它只是沉默地编织着一张网，接住那些曾坠落于复杂世界缝隙中的人——然后说：“看，这条路可以更简单。” 
 </p>
 </div>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background:
+    linear-gradient(#2b1055,#7597de);
+ }
+
+ header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 30px 200px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ header .logo{
+    font-size: 2em;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+
+ header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ header ul li{
+    list-style: none;
+    margin-left: 20px;
+ }
+ header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color:#fff;
+    border-radius: 20px;
+ }
+
+ header ul li a:hover,
+ header ul li a.active
+ {
+    background: #fff;
+    color: #2b1055;
+ }
+
+ section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+ }
+
+ section img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+ }
+ section .moon{
+    mix-blend-mode: screen;
+ }
+ section .front{
+    z-index: 10;
+ }
+
+ section .txt{
+    position:absolute;
+    right:-350px;
+    color:#fff;
+    white-space: nowrap;
+    font-size:7.5vw;
+    z-index: 9;
+ }
+ section .btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background:#fff;
+    color:#2b1055;
+    font-size: 1.5em;
+    z-index: 1;
+    transform: translateY(100px);
+ }
+
+ section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to
+    top,#1c0522,transparent);
+    z-index: 1000;
+ }
+
+.content{
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+.content h2{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.content p{
+    font-size: 1.2em;
+    color: #a9a9a9;
+}
+
+   .yejiao{
+      list-style: none;
+      margin-left: 0px;
+      color: #fff;
+      width: 550px;
+      margin: 0 auto; 
+      position:absolute;
+      top: 160%;
+      left: 46%;
+   }
+
+   .yejiao > .lisize{
+      list-style: none;
+      margin-left: 0;
+      font-size: 14px;
+      float: left;
+   }
+
+   ul{list-style-type: none;}
+    </style>
 
 
 
