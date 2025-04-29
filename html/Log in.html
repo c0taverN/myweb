@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c0taverN--登录</title>
+    <link rel="stylesheet" href="../css/Log in.css">
+    <script src="../js/Log in.js"></script>
+</head>
+<body>
+    <!-- 搭建结构 -->
+    <div class="container switch">
+        <!-- 注册页面 -->
+        <div class="container-form container-signup">
+            <form action="" class="form">
+                <h2 class="form-title">账号注册</h2>
+                <input type="text" placeholder="请输入用户名" class="input">
+                <input type="email" placeholder="请输入邮箱地址" class="input">
+                <input type="password" placeholder="请输入密码" class="input">
+                <button class="submit">注册</button>
+            </form>
+        </div>
+        <!-- 登录页面 -->
+        <div class="container-form container-signin">
+            <form action="javascript:void(0);" class="form">
+                <h2 class="form-title">账号登录</h2>
+                <input type="text" placeholder="请输入用户名" class="input">
+                <input type="password" placeholder="请输入密码" class="input">
+                <a href="javascript:void(0);">忘记密码?</a>
+                <button class="submit">登录</button>
+            </form>
+        </div>
+        <!-- 覆盖层 -->
+        <div class="container-overlay">
+            <div class="overlay">
+                <div class="overlay-slide overlay-left">
+                    <button class="submit" id="goSignIn">已有帐号，返回登录</button>
+                </div>
+                <div class="overlay-slide overlay-right">
+                    <button class="submit" id="goSignUp">没有账号，点击注册</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="btn-draw" href="../html/index.html"><span>返回探索</span></a>
+</body>
+
+<footer>
+    <div class="yejiao">
+        <ul>
+            <li class="lisize">© c0taverN 2025</li>
+        </ul>
+    </div>
+</footer>
+</html>

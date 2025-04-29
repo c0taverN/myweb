@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c0taverN--探索</title>
+    <link href="../css/Explore.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <script src="../js/Explore.js"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="imgBX">
+            <img src="../images/assets/Genius.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="details">
+                <h2 class="card-h2">c0taverN<br><span class="card-h2-span">这个人很懒~暂无简介</span></h2>
+                <div class="data">
+                    <h3 class="card-h3">342<br><span class="card-h3-span">帖子</span></h3>
+                    <h3 class="card-h3">120k<br><span class="card-h3-span">粉丝</span></h3>
+                    <h3 class="card-h3">43<br><span class="card-h3-span">关注</span></h3>
+                </div>
+                <div class="actionBtn">
+                    <button class="card-button">关注</button>
+                    <button class="card-button">私信</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card2">
+        <div class="card2-p">这是什么？</div>
+        <div class="content2">
+            <div class="details2">
+               <h2 class="card2-h2">网站简介<br><span class="card2-h2-span">hello world</span></h2>
+               <div class="data2">
+                  <h3 class="card2-h3">
+                    用科技让复杂的世界变简单：每一次算法的优化、每一行代码的编写，都在让曾经令人望而生畏的复杂系统变得透明，可控。</h3>
+                  <h3 class="card2-h3">
+                    科技的意义，不在于炫技，而在于把庞杂的规则转化为无声的便利。当算法成为桥梁，代码化为善意，复杂的世界便会在我们手中渐渐透明。</h3>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card3">
+       <div class="logo">
+           <a class="logo-a" href="../html/Explore.html">C0TAVERN</a>
+        </div>
+    </div>
+
+    <div class="card4">
+        <div class="card4a">
+           <div id="time">
+              <div class="circle" style="--clr:#ffff">
+                  <div class="dots sec_dot"></div>
+                   <svg>
+                       <circle cx="120" cy="120" r="120" id="ss"></circle>
+                   </svg>
+               </div>
+               <div class="circle" style="--clr:#fff">
+                   <div class="dots min_dot"></div>
+                   <svg>
+                       <circle cx="100" cy="100" r="100" id="mm"></circle>
+                   </svg>
+               </div>
+               <div class="circle" style="--clr:#fff">
+                  <div class="dots hr_dot"></div>
+                  <svg>
+                  <circle cx="80" cy="80" r="80" id="hh"></circle>
+                  </svg>
+               </div>
+              <div class="time-box">
+                  <div id="hours" style="--c:#fff">00</div>
+                  <div id="minutes" style="--c:#fff">00</div>
+                 <div id="seconds" style="--c:#fff">00</div>
+                 <div class="ap" style="--c:#fff"><div id="ampm">AM</div></div>
+              </div>
+           </div>
+       </div>
+    </div>
+
+    <div class="music-player-wrapper">
+        <div class="music-player">
+            <audio src="../audio/music-1.mp3" id="audio"></audio>
+            <div class="top-bar">
+                <span class="iconfont icon-24gl-volumeMiddle"></span>
+                <div class="progress-bar sound-progress-bar">
+                    <span class="duration-bar sound-duration"></span>
+                    <span class="progress sound-progress">
+                        <span class="round"></span>
+                    </span>
+                </div>
+                <span class="iconfont icon-sousuo"></span>
+            </div>
+            <div class="music-info">
+                <div class="info-left">
+                    <img class="music-img" src="../images/assets/music/music-1.jpg" alt="">
+                </div>
+                <div class="info-right">
+                    <div class="music-name">
+                        <span class="name">Free Loop</span>
+                        <span class="musician">Daniel Powter</span>
+                    </div>
+                    <div class="playback-setting">
+                        <span class="iconfont icon-next previous"></span>
+                        <span class="iconfont icon-bofang"></span>
+                        <span class="iconfont icon-zanting1"></span>
+                        <span class="iconfont icon-next next"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="progress-bar player-progress-bar">
+                <span class="duration-bar play-duration"></span>
+                <span class="progress player-progress"></span>
+                <span class="time">03:22</span>
+            </div>
+        </div>
+    </div>
+    <script src="../js/music.js"></script>
+
+    <div class="card5">
+        <div class="card5a">
+            <div class="imgBX1">
+                <img id="card5a"    src="../images/ico/biying.png" alt="">
+            </div>
+           <script>document.getElementById('card5a').addEventListener("click",function(){
+            window.open('https://cn.bing.com',"_blank");
+           })</script>
+       </div>
+        <div class="card5b">
+            <div class="imgBX1">
+                <img id="card5b" src="../images/ico/bilibili.png" alt="">
+            </div>
+           <script>document.getElementById('card5b').addEventListener("click",function(){
+            window.open('https://www.bilibili.com',"_blank");
+           })</script>  
+        </div>
+        <div class="card5c" >
+            <div class="imgBX1">
+                <img id="card5c" src="../images/ico/music.png" alt="">
+            </div>
+           <script>document.getElementById('card5c').addEventListener("click",function(){
+            window.open('https://y.qq.com/',"_blank");
+           })</script>
+        </div>
+    </div>
+    <div class="card6">
+        <div class="card6a">
+            <div class="imgBX1">
+                <img id="card6a" src="../images/ico/favicon2.png" alt="">
+            </div>
+           <script>document.getElementById('card6a').addEventListener("click",function(){
+            window.open('https://hot.imsyy.top',"_blank");
+           })</script>
+        </div>
+        <div class="card6b">
+            <div class="imgBX1">
+                <img id="card6b" src="../images/ico/email.png" alt="">
+            </div>
+           <script>document.getElementById('card6b').addEventListener("click",function(){
+            window.open('https://mail.qq.com/',"_blank");
+           })</script>
+        </div>
+        <div class="card6c">
+            <div class="imgBX1">
+                <img id="card6c" src="../images/ico/首页.png" alt="">
+            </div>
+           <script>document.getElementById('card6c').addEventListener("click",function(){
+            window.open("index.html","_blank");
+           })</script>
+        </div>  
+    </div>
+
+    
+
+
+
+
+
+
+
+    
+    <div class="left"></div>
+    <div class="right"></div>
+</body>
+
+
+<footer>
+    <div class="yejiao">
+        <ul>
+            <li class="lisize">© c0taverN 2025</li>
+        </ul>
+    </div>
+</footer>
+
+
+
+
+</html>
